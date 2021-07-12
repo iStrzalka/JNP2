@@ -1,0 +1,22 @@
+version: '3.4'
+services:
+  mariadb:
+    image: mariadb:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: bank
+      MYSQL_USER: bank
+      MYSQL_PASSWORD: banksecret
+    ports:
+      - "3306:3306"
+    container_name: mariadb
+    restart: always
+
+  bankapp:
+    build: complete/.
+    ports:
+    - "8080:8080"
+    volumes:
+    - ./complete:/io
+  
+  

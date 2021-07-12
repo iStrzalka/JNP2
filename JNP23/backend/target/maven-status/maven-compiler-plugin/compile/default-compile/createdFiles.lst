@@ -1,0 +1,12 @@
+pl/szybkie/szybkiepl/Engine/Engine.class
+pl/szybkie/szybkiepl/dealership/DealershipRepository.class
+pl/szybkie/szybkiepl/Location/Location.class
+pl/szybkie/szybkiepl/CarModel/CarModelRepository.class
+pl/szybkie/szybkiepl/SzybkieplApplication.class
+pl/szybkie/szybkiepl/advert/AdvertController.class
+pl/szybkie/szybkiepl/CarModel/CarModel.class
+pl/szybkie/szybkiepl/advert/Advert.class
+pl/szybkie/szybkiepl/advert/AdvertRepository.class
+pl/szybkie/szybkiepl/brand/Brand.class
+pl/szybkie/szybkiepl/utilityFunctions/UtilityFunctions.class
+pl/szybkie/szybkiepl/dealership/Dealership.class
